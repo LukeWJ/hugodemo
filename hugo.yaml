@@ -1,0 +1,91 @@
+theme: docura
+
+enableGitInfo: true
+
+defaultContentLanguage: en
+
+languages:
+  en:
+    weight: 1
+    languageName: English
+    languageCode: en-US
+    contentDir: content/en
+    title: AHA Local
+    params:
+      description: In travels, I discover wonders bright,Wishing you, too, find your aha moment.
+
+services:
+  googleAnalytics:
+    ID: G-XXXXXXXXXX
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+
+  author:
+    name: Luke Wang
+    url: https://localaha.com
+
+  themeColors:
+    light: '#ffffff'
+    dark: '#121212'
+
+  years:
+    start: ''
+    present: 2024
+
+  social:
+    github: ''
+    youtube: ''
+    facebook: ''
+    x: ''
+
+  ads:
+    googleAdSense: ''
+
+  donate:
+    buyMeACoffee: ''
+    githubSponsor: ''
+
+  algolia:
+    en:
+      container: '#site-header-search'
+      appId: ''
+      indexName: ''
+      apiKey: ''
+
+  home:
+
+   
+
+menu:
+  main:
+
+    - url: /
+      name: Home
+      identifier: home
+      pre: "<i class='icon icon-home'></i>"
+      weight: 1
+
+    - url: /food/
+      name: Food
+      identifier: food
+      pre: "<i class='icon icon-book'></i>"
+      weight: 3
+
+    - url: /stories/
+      name: Stories
+      identifier: stories
+      pre: "<i class='icon icon-book'></i>"
+      weight: 3      
+
+    - url: /about/
+      name: About
+      identifier: about
+      pre: "<i class='icon icon-book'></i>"
+      weight: 4
