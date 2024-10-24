@@ -16,7 +16,7 @@ languages:
 
 services:
   googleAnalytics:
-    ID: G-XXXXXXXXXX
+    ID: G-GDSDYC33C4
 
 markup:
   highlight:
@@ -29,7 +29,7 @@ params:
 
   author:
     name: Luke Wang
-    url: https://localaha.com
+    url: https://www.localaha.com
 
   themeColors:
     light: '#ffffff'
